@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="js/scripts.js">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- SIDEBAR -->
+        <section class="left-menu">
+            <div class="store-box">
+                <i class='bx bx-cart'></i>
+                <h3>STORE</h3>
+            </div>
+            <div class="box">
+                <i class='bx bxs-dashboard'></i>
+                <p>Dashboard</p>
+            </div>
+            <div class="box">
+                <i class='bx bxs-component'></i>
+                <p>Products</p>
+            </div>
+            <div class="box">
+                <i class='bx bx-category'></i>
+                <p>Categories</p>
+            </div>
+            <div class="box">
+                <i class='bx bx-group'></i>
+                <p>Customers</p>
+            </div>
+            <div class="box">
+                <i class='bx bx-calendar-check'></i>
+                <p>Inventory</p>
+            </div>
+            <div class="box">
+                <i class='bx bxs-report'></i>
+                <p>Reports</p>
+            </div>
+            <div class="box">
+                <i class='bx bx-cog' ></i>
+                <p>Settings</p>
+            </div>
+        </section>
+        <!-- CONTENT -->
+       
+          <!--Main-->
+        <main class="main-container">
+            <div class="content">
+                <nav class="menu">
+                    <div class="menu-left">
+                        <i class='bx bx-search-alt-2'></i>
+                    </div>
+                    <div class="menu-right">
+                        <i class='bx bx-bell'></i>
+                        <i class='bx bx-envelope' ></i>
+                        <i class='bx bx-user-circle' ></i>
+                    </div>
+                </nav>
+            </div>
+            <div class="main-title">
+                <h2>DASHBOARD</h2>
+            </div>
+         <br>
+            <div class="main-cards">
+               <div class="card1">
+                <div class="card-title">
+                    <p>PRODUCTS</p>
+                    <i class='bx bxs-component'></i>
+                </div>
+                <h3>249</h3>
+               </div>
+               <div class="card2">
+                <div class="card-title">
+                    <p>CATEGORIES</p>
+                    <i class='bx bx-category'></i>
+                </div>
+                <h3>25</h3>
+               </div>
+               <div class="card3">
+                <div class="card-title">
+                    <p>CUSTOMERS</p>
+                    <i class='bx bx-group'></i>
+                </div>
+                <h3>1500</h3>
+               </div>
+               <div class="card4">
+                <div class="card-title">
+                    <p>ALERTS</p>
+                    <i class='bx bx-alarm-exclamation' ></i>
+                </div>
+                <h3>56</h3>
+               </div>
+            </div>
+            <div class="charts">
+                <div class="charts-card">
+                    <h2 class="chart-title">Top 5 Products</h2>
+                    <div id="bar-chart"></div>
+                </div>
+                <div class="charts-card">
+                    <h2 class="chart-title2">Purchase and Sales Orders</h2>
+                    <div id="area-chart"></div>
+                </div>
+            </div>
+        </main>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.5/apexcharts.min.js"></script>
+    <!-- Custom JS -->
+       <script src="js/scripts.js"></script>
+</body>
+</html>

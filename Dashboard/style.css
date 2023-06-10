@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  
+}
+:root {
+	--poppins: 'Poppins', sans-serif;
+	--lato: 'Lato', sans-serif;
+}
+#header
+{
+  float: left;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(170, 170, 170);
+  margin-left: 290px;
+}
+.left-menu
+{
+   width: 251px;
+   height: 105vh;
+   float:left;
+   margin-right: auto;
+   background-color: #1d2634;
+   flex-direction: column;
+}
+.left-menu .store-box
+{
+  width: 251px;
+  height: 120px;
+  float: left;
+}
+.left-menu .store-box i
+{
+   margin-left: 30px;
+   font-size: 40px;
+   margin-top: 40px;
+   float: left;
+   color: #9e9ea4;
+}
+.left-menu .store-box h3
+{
+  float: left;
+  font-family: var(--poppins);
+  margin-top: 45px;
+  margin-left: 10px;
+  font-size: 21px;
+  color: #9e9ea4;
+}
+.left-menu .box
+{
+  width: 250px;
+  height: 65px;
+  float: left;
+}
+.left-menu .box:hover
+{
+   background-color: #b2b2bc;
+   transition: 0.5s;
+}
+.left-menu .box i
+{
+  margin-left: 20px;
+  font-size: 30px;
+  margin-top: 20px;
+  float: left;
+  color: #9e9ea4;
+}
+.left-menu .box p
+{
+  color: #9e9ea4;
+  float:left;
+  font-family: "Montserrat";
+  margin-top: 23px;
+  margin-left: 5px;
+}
+.content
+{
+  width: 100%;
+  height: 60px;
+  margin-right: auto;
+  background-color: rgb(23, 30, 49);
+  box-shadow: 5px 5px black;
+}
+.content .menu .menu-left i
+{
+  font-size: 33px;
+  margin-left: 25px;
+  margin-top: 15px;
+  cursor: pointer;
+  color: #9e9ea4;
+  float: left;
+}
+.content .menu .menu-right{
+  float: right;
+  width: 130px;
+  height: 60px;
+}
+.content .menu .menu-right i{
+  cursor: pointer;
+  color: #9e9ea4;
+  float: left;
+  font-size: 33px;
+  margin-top: 17px;
+  margin-right: 5px;
+}
+.main-container
+{
+  background-color: rgb(23, 30, 49);
+  width: 100%;
+  height: 105vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+.main-title {
+  width: 100%;
+  height: 90px;
+  margin-right: auto;
+}
+.main-title h2{
+  color: white;
+  font-family: "Montserrat";
+  margin-left: 20px;
+  float: left;
+  margin-top: 50px;
+  width: auto;
+  height: auto;
+}
+.main-cards
+{
+  margin-right: auto;
+  width: 100%;
+  height: 230px;
+}
+.main-cards .card1
+{
+  float: left;
+  width: 340px;
+  height: 190px;
+  border-radius: 5px;
+  background-color: #2962ff;
+  margin-left: 20px;
+}
+.main-cards .card2
+{
+  float: left;
+  width: 340px;
+  height: 190px;
+  border-radius: 5px;
+  background-color: #ff6d00;
+  margin-left: 20px;
+}
+.main-cards .card3
+{
+  float: left;
+  width: 340px;
+  height: 190px;
+  border-radius: 5px;
+  background-color: #2e7d32;
+  margin-left: 20px;
+}
+.main-cards .card4
+{
+  float: left;
+  width: 335px;
+  height: 190px;
+  border-radius: 5px;
+  background-color: #d50000;
+  margin-left: 20px;
+}
+.main-cards .card1 .card-title
+{
+  font-family: "Montserrat";
+  color: white;
+  float: left;
+  width: 315px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.main-cards .card2 .card-title
+{
+  font-family: "Montserrat";
+  color: white;
+  float: left;
+  width: 315px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.main-cards .card3 .card-title
+{
+  font-family: "Montserrat";
+  color: white;
+  float: left;
+ width: 315px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.main-cards .card4 .card-title
+{
+  font-family: "Montserrat";
+  color: white;
+  float: left;
+  width: 315px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.main-cards .card1 .card-title p
+{
+  float: left;
+  margin-left: 15px;
+}
+.main-cards .card1 .card-title i
+{
+   float: right;
+   font-size: 45px;
+   margin-top: 12px;
+   margin-right: 15px;
+}
+.main-cards .card2 .card-title p
+{
+  float: left;
+  margin-left: 15px;
+}
+.main-cards .card2 .card-title i
+{
+   float: right;
+   font-size: 45px;
+   margin-top: 12px;
+   margin-right: 15px;
+}
+.main-cards .card3 .card-title p
+{
+  float: left;
+  margin-left: 15px;
+}
+.main-cards .card3 .card-title i
+{
+   float: right;
+   font-size: 45px;
+   margin-top: 12px;
+   margin-right: 15px;
+}
+.main-cards .card4 .card-title p
+{
+  float: left;
+  margin-left: 15px;
+}
+.main-cards .card4 .card-title i
+{
+   float: right;
+   font-size: 45px;
+   margin-top: 12px;
+   margin-right: 1px;
+
+}
+.main-cards .card1 h3
+{  
+  float: left;
+  width: 60px;
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: white;
+  margin-top: 40px;
+  margin-left: 25px;
+}
+.main-cards .card2 h3
+{
+  float: left;
+  width: 60px;
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: white;
+  margin-top: 40px;
+  margin-left: 25px;
+}
+.main-cards .card3 h3
+{
+  float: left;
+  width: 60px;
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: white;
+  margin-top: 40px;
+  margin-left: 25px;
+}
+.main-cards .card4 h3
+{
+  float: left;
+  width: 60px;
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: white;
+  margin-top: 40px;
+  margin-left: 25px;
+}
+.charts
+{
+  float: left;
+}
+.charts .charts-card
+{
+  float: left;
+  margin-right: auto;
+  width: 699px;
+  height: 440px;
+  background-color: #1d2634;
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-right: -2px;
+}
+.charts .charts-card .chart-title
+{
+  float: left;
+  color: white;
+  float: left;
+  font-family: "Montserrat";
+  text-align: center;
+  justify-content: center;
+  margin-left: 250px;
+}
+.charts .charts-card .chart-title2
+{
+  float: left;
+  color: white;
+  float: left;
+  font-family: "Montserrat";
+  text-align: center;
+  justify-content: center;
+  margin-left: 200px;
+}
